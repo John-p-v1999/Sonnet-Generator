@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body>
+        <center>
+            <h1> SONNET GENERATOR PRELIMINARY MODEL</h1>
+            <form method="POST", action="{{url_for('home')}}">
+                <b>
+                    Enter String: <input type ="text" name="a" placeholder="enter string"> <br><br>
+
+                </b>
+                <b>
+                    Enter temperature(indicates randomness of word selection): <input type ="text" name="b" placeholder="value between 0 and 1"> <br><br>
+                    <input type="submit", value="predict">
+                </b>
+
+            </form>
+        </center>
+
+    </body>
+</html>
