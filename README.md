@@ -1,8 +1,16 @@
 # Sonnet-Generator
-step1: download the templates folder,tokenizer.pickle files,app.py, and trained_weigts file to a single folder
+step1: download the 
+
+          1. templates folder
+          2. tokenizer.pickle files
+          3. app.py 
+          4. trained_weigts file  
+          
+  All of these files should be downloaded to a single directory
 
 step 2:ENVIRONMENT SETUP
-          1. tensorflow \n
+
+          1. tensorflow 
           2. pickle
           3. numpy
           4. flask
