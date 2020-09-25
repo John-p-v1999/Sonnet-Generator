@@ -16,7 +16,9 @@ step 2:ENVIRONMENT SETUP
           4. flask
           These libraries are necessary to just run the UI, ie to just get the output
           
-step 3: run the app.py file. Note: the templates folder and the rest of the files mentioned in step 1 should be in the same directory as app.py. If not changes will need to be made to the app.py file.
+step 3: run the app.py file. Note: the templates folder and the rest of the files mentioned in step 1 should be in the same directory as app.py. If not changes will need to be made to the app.py file. there is picture how the directory should look like after cloning. in the picture(which is a screenshot),some files are highlighted. those are the app.py,templates,tokeniser.pickles and trained weights. these files must be in the same directory. after that is ensured,run app.py
+
+
 
 step 4: the UI will be run on localhost. Enter a starting word and set temperature value. temperature value manipulation results in different sonnets which contain different randomness in selection of words.
 
